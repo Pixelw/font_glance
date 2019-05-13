@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="120dp"
+            tools:context=".MainActivity">
+
+            <TextView
+                android:id="@+id/textBox1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="24dp"
+                android:fontFamily="sans-serif-thin"
+                android:text="HHW!世界を笑顔に！"
+                android:textColor="@android:color/black"
+                android:textSize="22sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="@id/textBox1"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="5dp"
+                android:textSize="12sp"
+                android:text="@string/hint"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="@id/textBox1"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginStart="5dp"
+                android:textSize="12sp"
+                android:text="100"/>
+
+
+            <TextView
+                android:id="@+id/textBox2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="HHW!世界を笑顔に！"
+                android:textColor="@android:color/black"
+                android:textSize="22sp"
+                app:layout_constraintLeft_toLeftOf="@id/textBox1"
+                app:layout_constraintTop_toBottomOf="@id/textBox1" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="@id/textBox2"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginStart="5dp"
+                android:textSize="12sp"
+                android:text="300"/>
+
+            <TextView
+                android:id="@+id/textBox3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="HHW!世界を笑顔に！"
+                android:textColor="@android:color/black"
+                android:textSize="22sp"
+                app:layout_constraintLeft_toLeftOf="@id/textBox2"
+                app:layout_constraintTop_toBottomOf="@id/textBox2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="@id/textBox3"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginStart="5dp"
+                android:textSize="12sp"
+                android:text="400"/>
+
+            <TextView
+                android:id="@+id/textBox4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="HHW!世界を笑顔に！"
+                android:textColor="@android:color/black"
+                android:textSize="22sp"
+                app:layout_constraintLeft_toLeftOf="@id/textBox3"
+                app:layout_constraintTop_toBottomOf="@id/textBox3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="@id/textBox4"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginStart="5dp"
+                android:textSize="12sp"
+                android:text="500"/>
+
+            <TextView
+                android:id="@+id/textBox5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="HHW!世界を笑顔に！"
+                android:textColor="@android:color/black"
+                android:textSize="22sp"
+                app:layout_constraintLeft_toLeftOf="@id/textBox4"
+                app:layout_constraintTop_toBottomOf="@id/textBox4" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="@id/textBox5"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginStart="5dp"
+                android:textSize="12sp"
+                android:text="700"/>
+
+            <TextView
+                android:id="@+id/textBox6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="HHW!世界を笑顔に！"
+                android:textColor="@android:color/black"
+                android:textSize="22sp"
+                app:layout_constraintLeft_toLeftOf="@id/textBox5"
+                app:layout_constraintTop_toBottomOf="@id/textBox5" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="@id/textBox6"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginStart="5dp"
+                android:textSize="12sp"
+                android:text="900"/>
+            <TextView
+                android:id="@+id/textBox7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="miui-light"
+                android:text="HHW!世界を笑顔に！"
+                android:textColor="@android:color/black"
+                android:textSize="22sp"
+                app:layout_constraintLeft_toLeftOf="@id/textBox6"
+                app:layout_constraintTop_toBottomOf="@id/textBox6" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="@id/textBox7"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginStart="5dp"
+                android:textSize="12sp"
+                android:text="miui-300"/>
+            <TextView
+                android:id="@+id/textBox8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="miui"
+                android:text="HHW!世界を笑顔に！"
+                android:textColor="@android:color/black"
+                android:textSize="22sp"
+                app:layout_constraintLeft_toLeftOf="@id/textBox7"
+                app:layout_constraintTop_toBottomOf="@id/textBox7" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="@id/textBox8"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginStart="5dp"
+                android:textSize="12sp"
+                android:text="miui-400"/>
+            <TextView
+                android:id="@+id/textBox9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="miui-bold"
+                android:text="HHW!世界を笑顔に！"
+                android:textColor="@android:color/black"
+                android:textSize="22sp"
+                app:layout_constraintLeft_toLeftOf="@id/textBox8"
+                app:layout_constraintTop_toBottomOf="@id/textBox8" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="@id/textBox9"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginStart="5dp"
+                android:textSize="12sp"
+                android:text="miui-700"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </HorizontalScrollView>
+</ScrollView>
